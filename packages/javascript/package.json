@@ -1,0 +1,25 @@
+{
+  "name": "@byzanteam/eslint-config-javascript",
+  "version": "0.1.0",
+  "description": "Byzanteam sharable ESLint configuration for JavaScript.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "config",
+    "javascript"
+  ],
+  "repository": "https://github.com/Byzanteam/eslint-config.git",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.9"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0"
+  }
+}
