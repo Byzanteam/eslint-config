@@ -1,0 +1,31 @@
+{
+  "name": "@byzanteam/eslint-config-typescript",
+  "version": "0.1.0",
+  "description": "Byzanteam sharable ESLint configuration for TypeScript.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "config",
+    "typescript"
+  ],
+  "repository": "https://github.com/Byzanteam/eslint-config.git",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@byzanteam/eslint-config-javascript": "^0.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
+    "eslint": "^5.16.0 || ^6.8.0",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
+    "eslint": "^5.16.0 || ^6.8.0",
+    "typescript": "^3.8.3"
+  }
+}
