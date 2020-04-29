@@ -1,0 +1,21 @@
+name: Publish
+
+on:
+  release:
+    types: published
+
+jobs:
+  Publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: npm install -g lerna
+      - run: lerna bootstrap --no-ci
+      - run: lerna publish from-package --yes
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
