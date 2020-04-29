@@ -1,0 +1,24 @@
+{
+  "name": "@byzanteam/eslint-config-vue",
+  "version": "0.1.0",
+  "description": "Byzanteam sharable ESLint configuration for Vue.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "config",
+    "vue"
+  ],
+  "repository": "https://github.com/Byzanteam/eslint-config.git",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
