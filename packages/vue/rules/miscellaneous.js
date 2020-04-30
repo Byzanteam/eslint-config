@@ -33,7 +33,7 @@ module.exports = {
     'vue/no-unsupported-features': 'off',
     'vue/object-curly-spacing': ['error', 'always'],
     'vue/padding-line-between-blocks': 'error',
-    'vue/require-direct-export': 'error',
+    'vue/require-direct-export': 'off',
     'vue/require-name-property': 'off',
     'vue/script-indent': [
       'error',
