@@ -20,7 +20,20 @@ module.exports = {
         shouldMatchCase: false,
       },
     ],
-    'vue/max-len': 'off',
+    'vue/max-len': [
+      'error',
+      {
+        code: 100,
+        ignoreComments: false,
+        ignoreHTMLAttributeValues: true,
+        ignoreHTMLTextContents: false,
+        ignoreRegExpLiterals: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreTrailingComments: true,
+        ignoreUrls: true,
+      }
+    ],
     'vue/no-boolean-default': 'off',
     'vue/no-deprecated-scope-attribute': 'error',
     'vue/no-deprecated-slot-attribute': 'error',
