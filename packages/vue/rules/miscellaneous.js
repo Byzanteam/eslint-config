@@ -13,13 +13,7 @@ module.exports = {
     'vue/eqeqeq': ['error', 'always'],
     'vue/key-spacing': 'error',
     'vue/keyword-spacing': 'error',
-    'vue/match-component-file-name': [
-      'error',
-      {
-        extensions: ['jsx', 'tsx', 'vue'],
-        shouldMatchCase: false,
-      },
-    ],
+    'vue/match-component-file-name': 'off',
     'vue/max-len': [
       'error',
       {
