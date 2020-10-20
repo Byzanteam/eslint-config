@@ -1,6 +1,6 @@
 {
   "name": "@byzanteam/eslint-config-vue",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Byzanteam sharable ESLint configuration for Vue.",
   "main": "index.js",
   "keywords": [
