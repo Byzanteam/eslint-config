@@ -5,7 +5,7 @@ module.exports = {
     'block-scoped-var': 'error',
     'class-methods-use-this': 'error',
     complexity: 'off',
-    'consistent-return': 'error',
+    'consistent-return': 'off',
     curly: ['error', 'multi-line'],
     'default-case': 'error',
     'default-param-last': 'error',
