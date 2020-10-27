@@ -1,6 +1,6 @@
 {
   "name": "@byzanteam/eslint-config-javascript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Byzanteam sharable ESLint configuration for JavaScript.",
   "main": "index.js",
   "keywords": [
