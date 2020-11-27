@@ -31,6 +31,8 @@ module.exports = {
     ],
     'no-extra-semi': 'off',
     '@typescript-eslint/no-extra-semi': 'error',
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': 'error',
     'no-unused-expressions': 'off',
     '@typescript-eslint/no-unused-expressions': 'error',
     'no-unused-vars': 'off',
