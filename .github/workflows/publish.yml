@@ -1,8 +1,9 @@
 name: Publish
 
 on:
-  release:
-    types: published
+  push:
+    tags:
+      - "*"
 
 jobs:
   Publish:
@@ -19,3 +20,9 @@ jobs:
       - run: lerna publish from-package --yes
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+      - uses: actions/create-release@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
