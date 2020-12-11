@@ -1,10 +1,13 @@
+const camelcaseOption = ['error', { allow: ['^\\$_'] }]
+
 module.exports = {
   rules: {
     'vue/array-bracket-spacing': ['error', 'never'],
     'vue/arrow-spacing': ['error', { after: true, before: true }],
     'vue/block-spacing': ['error', 'always'],
     'vue/brace-style': ['error', '1tbs', { allowSingleLine: true }],
-    'vue/camelcase': 'error',
+    'camelcase': camelcaseOption,
+    'vue/camelcase': camelcaseOption,
     'vue/comma-dangle': ['error', 'always-multiline'],
     'vue/component-definition-name-casing': ['error', 'PascalCase'],
     'vue/component-name-in-template-casing': ['error', 'PascalCase'],
