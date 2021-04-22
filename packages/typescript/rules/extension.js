@@ -19,7 +19,7 @@ module.exports = {
     'no-dupe-class-members': 'off',
     '@typescript-eslint/no-dupe-class-members': 'error',
     'no-duplicate-imports': 'off',
-    'eslint/no-duplicate-imports': 'error',
+    '@typescript-eslint/no-duplicate-imports': 'error',
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': [
       'error',
